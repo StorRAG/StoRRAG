@@ -1,18 +1,15 @@
 ---
 layout: default
 ---
-
-![The StorRAG Bot](https://github.com/StorRAG/StorRAG/blob/5287f19e0769daaab8de29289e16dd304ce66d8a/assets/images/StorRAG-logo.png)
+## StorRAG is OpenSource. Your Data, Your Software, Forever!
 
 Our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
 
-## OpenSource. Your Data, Your Software, Forever!
+At StorRAG our code is in [GitHub](https://github.com/StorRAG/Appliance) and our software is packaged in a [Bootable Container](https://bootc.dev/bootc/) . This means you can review the code **anytime** and run the software **anywhere**, from **Bare Metal** to **The Cloud**. 
 
-At StorRAG our code is in [GitHub](https://github.com/StorRAG/) and is packaged in a [Bootable Container](https://bootc.dev/bootc/) . This means you can review the code **anytime** and run the software **anywhere** from **Bare Metal** to **The Cloud**. 
+### What is a StorRAG Appliance
 
-## What is a StorRAG Appliance
-
-At StorRAG we build a custom RAG (Retrieval Augmented Generation) application, packaged in a Bootable Container. The Container consists of three main components; 
+At StorRAG we build a custom RAG (Retrieval Augmented Generation) application, packaged in a Bootable Container. Consisting of three main components; 
 
 ### The Model Service 
 
@@ -28,26 +25,9 @@ Our Data Import Application connects to our Model Service via it's OpenAI compat
 
 ### How do I get it?
 
-First, download and uncompress the software, then spin up a Pod along with a number of containers using the commands below:
+Simple, Those who want to get started quickly and conveniently may install StorRAG using the following command:
 
 ```
-cd rag
-make quadlet
-podman kube play build/rag.yaml
+curl -sSL https://github.com/StorRAG/Appliance/install.sh | bash
 ```
-
-The Pod is named rag, so you may use Podman to manage the Pod and its containers:
-
-```
-podman pod list
-podman ps
-```
-
-To stop and remove the Pod, run:
-
-```
-podman pod stop rag
-podman pod rm rag
-```
-
 Please contact us for Sales and Support on our [slack channel]().
