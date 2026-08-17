@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+**StorRAG** is an idea in the making. An **OpenSource RAG Appliance** with a mission, to turn **your storage**, into **your data**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
