@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-StorRAG is our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
+Our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
 
 # OpenSource. Your Data, Your Software, Forever!
 
