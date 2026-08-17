@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![The StorRAG Bot](https://github.com/StorRAG/StorRAG/blob/main/StorRAG-logo.png)
 
 Our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
 
