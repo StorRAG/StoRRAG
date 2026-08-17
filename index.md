@@ -3,6 +3,9 @@ layout: default
 ---
 **StorRAG** is an idea in the making. An **OpenSource RAG Appliance** with a mission, to turn **your storage**, into **your data**.
 
+### Small image
+
+![StorRAG Bot](https://github.com/StorRAG/StorRAG/StorRAG-logo.png)
 
 
 
