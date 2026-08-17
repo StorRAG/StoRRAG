@@ -3,15 +3,13 @@ layout: default
 ---
 Our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
 
-# OpenSource. Your Data, Your Software, Forever!
+## OpenSource. Your Data, Your Software, Forever!
 
 At StorRAG our code is in [GitHub](https://github.com/StorRAG/) and is packaged in a [Bootable Container](https://bootc.dev/bootc/) . This means you can review the code **anytime** and run the software **anywhere** from Bare Metal to the Cloud. 
 
 ## What is a StorRAG Appliance
 
-At StorRAG we build a custom RAG (Retrieval Augmented Generation) application, packaged in a Bootable Container. 
-
-The Container consists of three main components; 
+At StorRAG we build a custom RAG (Retrieval Augmented Generation) application, packaged in a Bootable Container. The Container consists of three main components; 
 
 ### The Model Service 
 
@@ -27,12 +25,26 @@ Our Data Import Application connects to our Model Service via it's OpenAI compat
 
 ### How do I get it?
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+First, build application's meta data and run the generated Kubernetes YAML which will spin up a Pod along with a number of containers:
+
+```bash
+cd rag
+make quadlet
+podman kube play build/rag.yaml
+```
+
+The Pod is named rag, so you may use Podman to manage the Pod and its containers:
+
+```bash
+podman pod list
+podman ps
+```
+
+To stop and remove the Pod, run:
+
+```bash
+podman pod stop rag
+podman pod rm rag
 ```
 
 
