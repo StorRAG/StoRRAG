@@ -23,13 +23,13 @@ In order for the LLM to interact with your data, we connect to your data stores 
 
 ### The Data Import Application
 
-Our Data Import Application connects to our Model Service via it's OpenAI compatible API.
+Our Data Import Application connects to our Model Service via it's OpenAI compatible API. We package a well performant mid-sized model with an apache-2.0 license that has been quanitzed and served into the GGUF format (no need for a GPU).
 
 ### How do I get it?
 
-First, build application's meta data and run the generated Kubernetes YAML which will spin up a Pod along with a number of containers:
+First, download and uncompress the software, then spin up a Pod along with a number of containers using the commands below:
 
-```bash
+```
 cd rag
 make quadlet
 podman kube play build/rag.yaml
@@ -37,14 +37,14 @@ podman kube play build/rag.yaml
 
 The Pod is named rag, so you may use Podman to manage the Pod and its containers:
 
-```bash
+```
 podman pod list
 podman ps
 ```
 
 To stop and remove the Pod, run:
 
-```bash
+```
 podman pod stop rag
 podman pod rm rag
 ```
