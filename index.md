@@ -49,6 +49,4 @@ podman pod stop rag
 podman pod rm rag
 ```
 
-```
-Please contact us for Service and Support on our [slack channel]().
-```
+Please contact us for Sales and Support on our [slack channel]().
