@@ -1,5 +1,4 @@
 title: StorRAG
 description: A RAG Appliance, to turn "your" storage, into "your" data.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-cayman
+logo: /assets/image/StorRAG-logo.png
+theme: jekyll-theme-minimal
