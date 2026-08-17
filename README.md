@@ -8,11 +8,11 @@
 - 📫 Reach us via a Pull Request or our WhatsApp group
 - ⚡ Fun fact: This "idea in the making" started in Australia... G-Day!
 
-## StorRAG is OpenSource. Your Data, Your Software, Forever!
+## StorRAG is OpenSource. Your Code, Your Data, Forever!
 
 Our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
 
-At StorRAG our code is in [GitHub](https://github.com/StorRAG/Appliance) and our software is packaged in a [Bootable Container](https://bootc.dev/bootc/) . This means you can review the code **anytime** and run the software **anywhere**, from **Bare Metal** to **The Cloud**. 
+At StorRAG our code is in [GitHub](https://github.com/StorRAG/Appliance) and our software is packaged in a [Bootable Container](https://bootc.dev/bootc/) . This means you can review the code **Anytime** and run the software **Anywhere**, from **Bare Metal** to **The Cloud**. 
 
 ### What is a StorRAG Appliance
 
