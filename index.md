@@ -1,13 +1,39 @@
 ---
 layout: default
 ---
-**StorRAG** is an idea in the making. An **OpenSource RAG Appliance** with a mission, to turn **your storage**, into **your data**.
+StorRAG is our idea in the making. A RAG Appliance with a mission, to turn **your storage**, into **your data**.
 
-![The StorRAG Bot](https://github.com/StorRAG/StorRAG/blob/main/StorRAG-logo.png)
+# OpenSource. Your Data, Your Software, Forever!
 
+At StorRAG our code is in [GitHub](https://github.com/StorRAG/) and is packaged in a [Bootable Container](https://bootc.dev/bootc/) . This means you can review the code **anytime** and run the software **anywhere** from Bare Metal to the Cloud. 
 
+## What is a StorRAG Appliance
 
+At StorRAG we build a custom RAG (Retrieval Augmented Generation) application, packaged in a Bootable Container. 
 
+The Container consists of three main components; 
+
+### The Model Service 
+
+For the local Model Serving, we use llama-cpp-python and an OpenAI compatible Model Service.
+
+### The Vector Database
+
+In order for the LLM to interact with your data, we connect to your data stores using standard industry protocols and make it available in such a manner that we can retrieve a small subset of each of them that are relevant to any query. To do this we employ a Vector Database alongside an embedding model. The embedding model converts our documents into numerical representations, vectors, such that similarity searches can be easily performed. The Vector Database stores these vectors for us and makes them available to the LLM. We use chromaDB as our Vector Database.
+
+### The Data Import Application
+
+Our Data Import Application connects to our Model Service via it's OpenAI compatible API. In this example we rely on Langchain's python package to simplify communication with our Model Service and we use Streamlit for our UI layer.
+
+### How do I get it?
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 
 
 
