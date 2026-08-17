@@ -17,11 +17,11 @@ For the local Model Serving and an OpenAI compatible Model Service.
 
 ### The Vector Database
 
-In order for the LLM to interact with your data, we connect to your data stores using standard industry protocols and make it available in such a manner that we can retrieve a small subset of each of them that are relevant to any query. To do this we employ a Vector Database alongside an embedding model. The embedding model converts our documents into numerical representations, vectors, such that similarity searches can be easily performed. The Vector Database stores these vectors for us and makes them available to the LLM.
+In order for the LLM to interact with your data, we connect to your data stores using industry standard storage protocols (like S3, NFS, SMB and block). We make this data available in such a manner that we can retrieve a small subset of each of them that are relevant to any query. To do this we employ a Vector Database alongside an embedding model. The embedding model converts our documents into numerical representations, vectors, such that similarity searches can be easily performed. The Vector Database stores these vectors for us and makes them available to the LLM.
 
 ### The Data Import Application
 
-Our Data Import Application connects to our Model Service via it's OpenAI compatible API. We package a well performant mid-sized model with an apache-2.0 license that has been quanitzed and served into the GGUF format (no need for a GPU).
+Our Data Import Application connects to our Model Service via it's OpenAI compatible API. We package a well performant mid-sized model with an apache-2.0 license that has been quanitzed and served into the GGUF format **(no GPU required)**.
 
 ### How do I get it?
 
@@ -30,4 +30,6 @@ Simple, Those who want to get started quickly and conveniently may install StorR
 ```
 curl -sSL https://github.com/StorRAG/Appliance/install.sh | bash
 ```
-Please contact us for Sales and Support on our [slack channel]().
+For those looking for more options our code is in [GitHub](https://github.com/StorRAG/Appliance)
+
+Please contact us for Sales and Support on our [WhatsApp Group]().
