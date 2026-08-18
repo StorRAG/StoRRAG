@@ -35,8 +35,8 @@ Our Data Import Application connects to our Model Service via it's OpenAI compat
 Simple, Those who want to get started quickly and conveniently may install StorRAG using the following command:
 
 ```
-curl -sSL https://github.com/StorRAG/Appliance/install.sh | bash
+curl -sSL https://storrag.com/install.sh | bash
 ```
 For those looking for more options our code is in [GitHub](https://github.com/StorRAG/Appliance)
 
-Please contact us for Sales and Support on our [WhatsApp Group]().
+Please connect for Discourse, Sales and Support on our [WhatsApp Community]().
