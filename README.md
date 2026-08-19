@@ -39,4 +39,4 @@ curl -sSL https://storrag.com/install.sh | bash
 ```
 For those looking for more options our code is in [GitHub](https://github.com/StorRAG/Appliance)
 
-For Discourse, Sales and Support join our [WhatsApp Community]().
+For Discourse, Sales and Support join our [WhatsApp Community](https://chat.whatsapp.com/BabLkdFELY60QYoW4nTg4y?s=cl&p=i&mlu=4).
